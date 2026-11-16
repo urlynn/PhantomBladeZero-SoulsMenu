@@ -1,0 +1,19 @@
+Tool: built-in image_gen (imagegen skill)
+Intent: new promotional illustration, not a game screenshot.
+
+Use case: ads-marketing.
+Asset type: a finished landscape promotional poster for the community game mod PBZ SoulsMenu, suitable as a Nexus Mods cover and a Heybox announcement image. Wide 16:9 composition, ideally 1920x1080 or higher. Opaque background, polished high-resolution raster artwork.
+Primary request: promote a Phantom Blade Zero mod that enables combat weapon and accessory changes and configurable equipment menus. This is promotional illustration, not a game screenshot.
+Art direction: premium Chinese wuxia ink-painting meets detailed dark fantasy game key art. Charcoal-black ink, parchment-white typography, subtle jade-green ornament and one small restrained vermilion seal accent, consistent with a dark Chinese ink-wash equipment menu. Intricately engraved Chinese dao blade and a single clearly recognizable silver-and-jade ring are the main visual subjects, with graceful smoky ink strokes and a distant faceless swordsman silhouette. Keep blade and ring visually distinct. The artwork should feel crafted and serious, not a generic template or futuristic interface.
+Composition: strong, spacious typographic hierarchy in the left half; blade and ring art sweeping diagonally through the right half, without obscuring text. Lower strip holds four concise feature labels separated by tasteful thin rules. Footer is small but readable. Balanced negative space, no dense fine print.
+Text: render the following exact copy, in clear correctly spelled Simplified Chinese and Latin typography. Large elegant Chinese brush-style display lettering for the main title; clean readable Chinese sans serif for feature labels.
+Top small label: "影之刃零 MOD"
+Main title, very large: "魂式菜单"
+English subtitle: "PBZ SOULSMENU"
+Supporting line: "战斗换武器 · 戒指可更换"
+Four feature labels: "菜单内移动" / "暂停自由配置" / "固定武器排序" / "19项本地配置"
+Footer: "v0.5.1  |  需安装 PBZModLoader"
+Author credit: "zangielfwin-gif"
+Small provenance line: "非官方模组 · 宣传插画"
+Constraints: all listed text must be legible, exactly spelled, and inside generous safe margins. No additional words or numbers, no invented UI panels or screenshots, no studio or platform logos, no watermark, no QR code. Do not promise unrestricted swapping: the copy only states combat weapon and ring changes. Preserve an understated editorial game-poster quality rather than excessive effects.
+

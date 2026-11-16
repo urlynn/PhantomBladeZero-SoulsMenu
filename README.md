@@ -1,5 +1,9 @@
 # PBZ SoulsMenu — 影之刃零魂式菜单
 
+![PBZ SoulsMenu 宣传海报](https://raw.githubusercontent.com/zangielfwin-gif/PhantomBladeZero-SoulsMenu/main/docs/media/SoulsMenu-0.5.1-Poster.png)
+
+[中文发布介绍](https://github.com/zangielfwin-gif/PhantomBladeZero-SoulsMenu/blob/main/docs/publishing/INTRO_ZH.md) · [English introduction](https://github.com/zangielfwin-gif/PhantomBladeZero-SoulsMenu/blob/main/docs/publishing/INTRO_EN.md) · [小黑盒短介绍](https://github.com/zangielfwin-gif/PhantomBladeZero-SoulsMenu/blob/main/docs/publishing/HEYBOX_INTRO.txt)
+
 **0.5.1：支持战斗中更换、卸下戒指／饰品。** 主武器菜单、菜单内移动、详情隐藏和固定排序均可通过本地 INI 配置。
 
 Configurable combat equipment menus for **Phantom Blade Zero**, including combat accessory replacement and unequip. Requires **PBZModLoader**, installed separately. Built against Steam game build **26367565**.

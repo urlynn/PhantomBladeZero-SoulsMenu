@@ -1,0 +1,15 @@
+标题：影之刃零｜魂式菜单：战斗换武器、换戒指
+
+让临场换装更顺手。
+
+战斗中进入主武器、戒指／饰品列表，支持更换和饰品卸下，保留原有装备限制。不暂停模式下，WASD／左摇杆继续移动，视角锁定；鼠标／十字键选择物品。
+
+菜单内单按L3收起右侧详情；主武器与影之武装上下槽位对调，二级武器列表固定排序，还能用Ctrl＋方向键或L3＋十字键调整位置。暂停、切换／拔刀能力、透明度及按键等19项设置，均可编辑本地INI。
+
+版本：0.5.1
+作者：zangielfwin-gif
+需要：PBZModLoader；小黑盒扩展会统一检查UE4SS前置。
+安装：导入PBZ_SoulsMenu-0.5.1-Heybox.zip，启用并部署，完整重启游戏。
+配置：%LOCALAPPDATA%\ProjectPBZ\Saved\PBZSoulsMenu.ini，修改后重启。
+
+下载：https://github.com/zangielfwin-gif/PhantomBladeZero-SoulsMenu/releases/tag/v0.5.1
