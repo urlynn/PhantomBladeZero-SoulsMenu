@@ -1,0 +1,63 @@
+Suggested Nexus title:
+PBZ SoulsMenu - Combat Weapons and Accessories
+
+Version: 0.5.1
+Game: Phantom Blade Zero
+Author/uploader: zangielfwin-gif
+Required dependency: PBZModLoader (install separately)
+Target game build: Steam 26367565
+
+English summary:
+Configurable combat equipment menus: change weapons and accessories during combat, choose pausing, move with a locked camera, hide details and keep custom weapon ordering. Nineteen local INI settings. Requires PBZModLoader.
+
+中文简介：
+支持战斗中更换主武器、戒指及饰品，提供可选暂停、菜单内移动与视角锁定、上下槽位映射、详情隐藏、Esc直退和固定武器排序。19项设置通过本地INI直接编辑。
+
+Upload these files as separate installation choices:
+- PBZ_SoulsMenu-0.5.1-Nexus-Manual.zip (manual installation)
+- PBZ_SoulsMenu-0.5.1-Heybox.zip (optional Heybox installation)
+Use one archive only. Do not upload a local backup or personal settings.
+
+BBCode description:
+
+[b]PBZ SoulsMenu 0.5.1[/b]
+Configurable equipment-menu improvements for Phantom Blade Zero, including combat accessory replacement and unequip. Requires PBZModLoader, installed separately.
+
+[b]Features[/b]
+- Access the main-weapon and accessory selection menus during combat, subject to other game-state restrictions.
+- Replace or unequip rings/accessories using the native APIs. Locked slots, story locks, duplicate-equipment and same-type limits remain.
+- Optional menu pausing. Move with WASD/left stick in unpaused menus; the camera remains locked.
+- Swap current/backup UI positions for main and shadow weapons without changing actual combat slot indices.
+- Tap L3 (on release) or press F6 to toggle right-hand details and the backdrop. Hidden-backdrop opacity defaults to zero.
+- Esc from secondary main/shadow weapon selection closes the whole menu.
+- After current-slot main-weapon replacement, request the native current-slot .UI equip/draw ability after menu closure and loading. It follows native ability restrictions and does not force an attack.
+- Keep main/shadow weapon lists in a persistent custom order: Ctrl+arrows or hold L3+D-pad. Sorting does not also toggle details.
+- Nineteen local INI settings, including feature switches, bindings, opacity and dead zone. Green screen notifications are disabled by default.
+
+[b]Installation[/b]
+Install PBZModLoader first. Fully exit the game before installing or updating.
+Manual: merge ProjectPBZ from the Nexus-Manual archive into the game directory containing platform/steam/PBZ.exe.
+Heybox: import the Heybox archive using the PhantomBladeZero extension, enable and deploy. The extension also performs its shared UE4SS prerequisite check.
+Use one archive only. Fully restart the game; do not hot-reload this mod.
+
+[b]Configuration[/b]
+The first launch creates %LOCALAPPDATA%/ProjectPBZ/Saved/PBZSoulsMenu.ini.
+Edit as UTF-8 and restart. Existing settings survive updates and uninstall.
+Combat accessories require both AllowInCombat=true and AllowAccessoryInCombat=true under [Menu]. Missing new options use their defaults, so an older INI does not need resetting.
+PauseGame=true enables pausing. AutoSwitchSkill=false disables the native current-slot ability request.
+CONFIGURATION.md lists all nineteen options. The default template is settings.default.ini.example.
+
+[b]Uninstall[/b]
+Remove the mod through the manager that installed it, or remove only ProjectPBZ/PBZModLoader/mods/PBZSoulsMenu for a manual install. Retain shared loaders and other mods. Personal settings/order remain in Saved.
+
+[b]Compatibility and validation[/b]
+Built against Steam build 26367565. Original game methods are checked before patching; a changed game build or another mod modifying the same UI methods may prevent loading.
+188 simulated gameplay/lifecycle checks, 11 configuration checks and 9 Heybox contract/deployment checks passed during development. These do not replace in-game acceptance of the accessory's actual stats/effects.
+Logs: ProjectPBZ/PBZModLoader/evidence/<session>/loader.log. Search for [PBZSoulsMenu] and v0.5.1 installed.
+
+[b]Source and downloads[/b]
+https://github.com/zangielfwin-gif/PhantomBladeZero-SoulsMenu
+https://github.com/zangielfwin-gif/PhantomBladeZero-SoulsMenu/releases/tag/v0.5.1
+
+中文安装要点：
+先安装PBZModLoader，关闭游戏后安装；两个压缩包只选择一个。首次启动生成Saved目录中的PBZSoulsMenu.ini，用记事本编辑后重启游戏。小黑盒包可直接导入，手动包把ProjectPBZ合并至游戏根目录。卸载时只移除本Mod，保留前置和个人配置。

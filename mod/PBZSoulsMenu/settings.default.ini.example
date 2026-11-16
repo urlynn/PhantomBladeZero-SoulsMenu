@@ -1,0 +1,36 @@
+; PBZ SoulsMenu 0.5.1 - UTF-8
+; 修改后完全退出并重新启动游戏。Changes apply after restarting the game.
+; true=开启/on, false=关闭/off. None=禁用该按键/disable binding.
+
+[General]
+Enabled=true
+PauseGame=false
+ShowNotifications=false
+
+[Menu]
+AllowInCombat=true
+; 战斗中更换／卸下戒指和饰品。Requires AllowInCombat=true.
+AllowAccessoryInCombat=true
+AllowMovement=true
+EscapeClosesAll=true
+SwapMainWeaponSlots=true
+SwapShadowWeaponSlots=true
+HideDetailsByDefault=false
+; 隐藏详情时的背景不透明度。0=完全透明，1=不透明。Opacity while details are hidden.
+RightBackdropOpacity=0
+
+[Weapons]
+AutoSwitchSkill=true
+FixedWeaponOrder=true
+
+[Input]
+; 左摇杆按下=L3, 右摇杆按下=R3. Supported gamepad buttons: L3 or R3.
+ToggleDetailsGamepad=Gamepad_LeftThumbstick
+ToggleDetailsKeyboard=F6
+ToggleDetailsMouse=None
+; 共用同一摇杆按键时：单按隐藏，按住+十字键排序。Tap hides; hold+D-pad sorts.
+SortModifierGamepad=Gamepad_LeftThumbstick
+; Control / Shift / Alt
+SortModifierKeyboard=Control
+; 左摇杆死区 0..0.95. Left-stick dead zone.
+StickDeadZone=0.20

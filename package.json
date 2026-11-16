@@ -1,0 +1,15 @@
+{
+  "name": "phantombladezero-soulsmenu",
+  "version": "0.5.1",
+  "releaseDate": "2026-11-16",
+  "gameBuild": "26367565",
+  "private": true,
+  "description": "Configurable Phantom Blade Zero equipment menus with combat accessory replacement",
+  "scripts": {
+    "test": "node scripts/check-source.cjs && node tests/config.test.cjs",
+    "build": "python scripts/build.py",
+    "check:heybox": "node scripts/check-heybox.cjs"
+  },
+  "engines": {"node": ">=18"},
+  "repository": {"type": "git", "url": "https://github.com/zangielfwin-gif/PhantomBladeZero-SoulsMenu.git"}
+}
